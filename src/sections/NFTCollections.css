@@ -1,0 +1,56 @@
+/* Custom styles for Slick Carousel */
+.slick-slider {
+  position: relative;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+.slick-slide {
+  height: auto;
+  padding: 0 8px;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+/* Custom arrow positioning */
+/* .slick-prev {
+  left: -50px !important;
+}
+
+.slick-next {
+  right: -50px !important;
+} */
+
+.slick-next:before {
+  display: none;
+}
+.slick-prev:before {
+  display: none;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  background-color: #383A42;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .slick-slide {
+    padding: 0 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slick-slide {
+    padding: 0 4px;
+  }
+} 
